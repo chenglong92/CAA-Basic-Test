@@ -1,0 +1,14 @@
+**********************************************
+*This program was developed by ChengLong from*
+*FAEL(Fluid & Aeroacoustic Engineering Lab) of*
+*BUAA******************************************
+*********************************************** 
+This program can solve one-dimensional migration equation using DRP scheme and LDDRK scheme.
+The Main function: one_dimensional_migration_main.f90
+subroutine:DRP7_sub.f90   using optimised 7-points DRP scheme for spatial discretization
+	   f_sub.f90      the basic spatial discretized result of one-order patial 
+					differential term such as patial_u/patial_x
+	   Lax_Wendroff_sub.f90: using the Lax_Wendroff scheme to solve the governing equation
+	   LDDRK_sub.f90: the temporal discretized way
+
+
